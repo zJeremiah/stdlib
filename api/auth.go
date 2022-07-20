@@ -7,8 +7,8 @@ import (
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.rakops.com/rm/signal-api/stdlib/auth"
-	"github.rakops.com/rm/signal-api/stdlib/xhttp"
+	"github.com/zjeremiah/stdlib/auth"
+	"github.com/zjeremiah/stdlib/xhttp"
 )
 
 type (

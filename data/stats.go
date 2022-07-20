@@ -9,8 +9,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	prom "github.com/prometheus/client_golang/prometheus"
 
-	"github.rakops.com/rm/signal-api/stdlib/stats"
-	"github.rakops.com/rm/signal-api/stdlib/stats/prometheus"
+	"github.com/zjeremiah/stdlib/stats"
+	"github.com/zjeremiah/stdlib/stats/prometheus"
 )
 
 type (

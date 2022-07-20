@@ -6,7 +6,7 @@ import (
 
 	prom "github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.rakops.com/rm/signal-api/stdlib/stats"
+	"github.com/zjeremiah/stdlib/stats"
 )
 
 // Client holds a prometheus registry and allows for the setting up of the metrics endpoint
@@ -71,7 +71,7 @@ func (c *Client) RemoveCollectors(collectors Collectors) {
 //  import (
 //  	"github.com/labstack/echo/v4"
 //
-//  	"github.rakops.com/rm/signal-api/stdlib/stats/prometheus"
+//  	"github.com/zjeremiah/stdlib/stats/prometheus"
 //  )
 //
 //  func main() {

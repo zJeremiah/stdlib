@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.rakops.com/rm/signal-api/stdlib/stats"
-	"github.rakops.com/rm/signal-api/stdlib/xhttp"
+	"github.com/zjeremiah/stdlib/stats"
+	"github.com/zjeremiah/stdlib/xhttp"
 )
 
 var (

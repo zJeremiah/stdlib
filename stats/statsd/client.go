@@ -7,7 +7,7 @@ import (
 
 	"github.com/quipo/statsd"
 
-	"github.rakops.com/rm/signal-api/stdlib/stats"
+	"github.com/zjeremiah/stdlib/stats"
 )
 
 // Client implements the stats.Client interface. This will send
